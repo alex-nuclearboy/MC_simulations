@@ -46,4 +46,3 @@ void randomNumberHistogram()
     TCanvas *canva = new TCanvas( "name", "title159", 900, 600 );   //Initialization of a canva on which the histogram will be drawn
     histogram -> Draw();                                            //Plotting of the histogram
 }
-
